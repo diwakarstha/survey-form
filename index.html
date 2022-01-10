@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey Form | Home</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <h1 id="title">Survey Form for Football Player</h1>
+    <p id="description"></p>
+    <form id="survey-form">
+      <label id="name-label">Name:</label>
+      <input id="name" type="text" required placeholder="Full Name" /><br />
+      <label id="email-label">Email:</label>
+      <input required id="email" type="email" placeholder="Email" /><br />
+      <label id="number-label">Number:</label>
+      <input
+        required
+        id="number"
+        type="number"
+        min="10"
+        max="13"
+        placeholder="Phone Number"
+      /><br />
+
+      <label id="dropdown-label">Your Skill Level:</label>
+      <select id="dropdown">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option></select
+      ><br />
+      <label id="gender-label">Gender:</label>
+      <label id="male-label">Male</label>
+      <input id="male" name="gender" type="radio" />
+      <label id="female-label">Female</label>
+      <input id="female" name="gender" type="radio" />
+      <label id="others-label">Others</label>
+      <input id="others" name="gender" type="radio" />
+      <br />
+      <label id="hobbies-label">Hobbies:</label>
+      <label id="chess-label">Play Chess</label>
+      <input id="chess" name="hobbies" value="Play Chess" type="checkbox" />
+      <label id="computer-games-label">Play Computer Games</label>
+      <input
+        id="computer-games"
+        name="hobbies"
+        value="Play Computer Games"
+        type="checkbox"
+      />
+      <label id="travelling-label">Travelling</label>
+      <input
+        id="travelling"
+        name="hobbies"
+        value="Travelling"
+        type="checkbox"
+      />
+      <br />
+      <label id="additional-comment-label">Additional Comment: <br /></label>
+      <textarea rows="6" cols="40"></textarea>
+      <br />
+      <input id="submit" type="submit" />
+    </form>
+  </body>
+</html>
