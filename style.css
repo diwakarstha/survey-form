@@ -1,0 +1,23 @@
+#title {
+  text-align: center;
+}
+#survey-form {
+  margin: 4%;
+  border: 1px black solid;
+  padding: 4% 10% 10% 10%;
+}
+input {
+  margin: 5px;
+}
+
+textarea {
+  margin: 8px;
+}
+body {
+  background-color: lightblue;
+}
+
+#submit:hover {
+  cursor: pointer;
+  background-color: lightgreen;
+}
